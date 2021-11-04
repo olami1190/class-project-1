@@ -15,3 +15,9 @@ middle_html = open('./content/blog.html') .read()
 combined= top_html + middle_html + bottom_html
 
 open ('docs/blog.html', 'w+') .write(combined)
+
+
+middle_html = open('./content/contact.html') .read()
+combined= top_html + middle_html + bottom_html
+
+open ('docs/contact.html', 'w+') .write(combined)
